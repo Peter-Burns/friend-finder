@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Friend Finder</h1>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2>
+                    <b>About you</b>
+                </h2>
+            </div>
+            <div class="panel-body">
+                <h3>
+                    <b>Name:</b>
+                </h3>
+                <input class="form-control" type="text" id="name">
+                <h3>
+                    <b>Photo url:</b>
+                </h3>
+                <input class="form-control" type="text" id="photoUrl">
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2>
+                    <b>Survey questions</b>
+                </h2>
+            </div>
+            <div class="panel-body">
+                <h3>
+                    <b>Question 1</b>
+                </h3>
+                <h4>Is pineapple on pizza delicious?</h4>
+                <select id="question1">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 2</b>
+                </h3>
+                <h4>Is deep dish pizza real pizza?</h4>
+                <select id="question2">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 3</b>
+                </h3>
+                <h4>Is square cut pizza better than triangle?</h4>
+                <select id="question3">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 4</b>
+                </h3>
+                <h4>Does Cleveland have good pizza?</h4>
+                <select id="question4">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 5</b>
+                </h3>
+                <h4>Should you reheat cold pizza?</h4>
+                <select id="question5">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 6</b>
+                </h3>
+                <h4>Is the crust the best part of a pizza?</h4>
+                <select id="question6">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 7</b>
+                </h3>
+                <h4>Are anchovies an acceptable pizza topping?</h4>
+                <select id="question7">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 8</b>
+                </h3>
+                <h4>Is meatlovers the best pizza?</h4>
+                <select id="question8">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 9</b>
+                </h3>
+                <h4>Is barbecue sauce acceptable on a pizza?</h4>
+                <select id="question9">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+                <h3>
+                    <b>Question 10</b>
+                </h3>
+                <h4>Is pizza your favorite food?</h4>
+                <select id="question10">
+                    <option>
+                        Select a response
+                    </option>
+                    <option value="1">
+                        1 Strongly Agree
+                    </option>
+                    <option value="2">
+                        2
+                    </option>
+                    <option value="3">
+                        3
+                    </option>
+                    <option value="4">
+                        4
+                    </option>
+                    <option value="5">
+                        5 Strongly Disagree
+                    </option>
+                </select>
+            </div>
+        </div>
+        <button id="submit" class="btn btn-primary btn-lg btn-block text-center">Submit</button>
+        <p>
+            <a href="api/friends">
+                API Friends List
+            </a>
+        </p>
+        <div class="modal fade" id="friendModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Best Match</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h4 id='friendName'>
+
+                        </h4>
+                        <img id='friendPic'/>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('#submit').on('click', function (event) {
+            event.preventDefault();
+
+            function validateInput() {
+                var valid = true;
+                $('.form-control').each(function () {
+                    if (!$(this).val()) valid = false;
+                });
+                $('select').each(function () {
+                    if ($(this).val() === 'Select a response') valid = false;
+                });
+                return valid;
+            }
+
+            if (validateInput()) {
+                var surveyAnswers = [$('#question1').val(), $('#question2').val(), $('#question3').val(), $('#question4').val(), $('#question5').val(), $('#question6').val(), $('#question7').val(), $('#question8').val(), $('#question9').val(), $('#question10').val()];
+                surveyAnswers = surveyAnswers.map(function (val) {
+                    return parseInt(val);
+                });
+                var newUser = {
+                    name: $('#name').val().trim(),
+                    photo: $('#photoUrl').val().trim(),
+                    scores: JSON.stringify(surveyAnswers)
+                };
+                console.log(newUser);
+                $.post('./api/friends', newUser, function (data) {
+                    console.log(data);
+                    $('#friendName').text(data.name);
+                    $('#friendPic').attr('src', data.photo);
+                    $('#friendModal').modal('show');
+                }, 'json');
+            }
+            else {
+                alert('All fields are required!');
+            }
+        });
+    </script>
+</body>
+
+</html>
