@@ -335,9 +335,7 @@
                     photo: $('#photoUrl').val().trim(),
                     scores: JSON.stringify(surveyAnswers)
                 };
-                console.log(newUser);
                 $.post('./api/friends', newUser, function (data) {
-                    console.log(data);
                     $('#friendName').text(data.name);
                     $('#friendPic').attr('src', data.photo);
                     $('#friendModal').modal('show');

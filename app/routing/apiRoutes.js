@@ -21,7 +21,8 @@ module.exports = function (app) {
                 bestMatch = friend;
             }
         });
-        friendArr.push(newFriend);
+        req.body.scores = newFriend;
+        friendArr.push(req.body);
         res.json(bestMatch);
     });
 };
